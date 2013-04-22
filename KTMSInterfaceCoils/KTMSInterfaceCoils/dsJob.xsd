@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsJob" targetNamespace="http://tempuri.org/dsJob.xsd" xmlns:mstns="http://tempuri.org/dsJob.xsd" xmlns="http://tempuri.org/dsJob.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" PropertyReference="ApplicationSettings.KTMSInterfaceCoils.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsJob" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsJob" msprop:Generator_DataSetName="dsJob" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="JobOpen" msprop:Generator_UserTableName="JobOpen" msprop:Generator_RowDeletedName="JobOpenRowDeleted" msprop:Generator_RowChangedName="JobOpenRowChanged" msprop:Generator_RowClassName="JobOpenRow" msprop:Generator_RowChangingName="JobOpenRowChanging" msprop:Generator_RowEvArgName="JobOpenRowChangeEvent" msprop:Generator_RowEvHandlerName="JobOpenRowChangeEventHandler" msprop:Generator_TableClassName="JobOpenDataTable" msprop:Generator_TableVarName="tableJobOpen" msprop:Generator_RowDeletingName="JobOpenRowDeleting" msprop:Generator_TablePropName="JobOpen">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MASTER_JOBNO" msprop:Generator_UserColumnName="MASTER_JOBNO" msprop:Generator_ColumnVarNameInTable="columnMASTER_JOBNO" msprop:Generator_ColumnPropNameInRow="MASTER_JOBNO" msprop:Generator_ColumnPropNameInTable="MASTER_JOBNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="JOBNO" msprop:Generator_UserColumnName="JOBNO" msprop:Generator_ColumnVarNameInTable="columnJOBNO" msprop:Generator_ColumnPropNameInRow="JOBNO" msprop:Generator_ColumnPropNameInTable="JOBNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="JOB_DATE" msprop:Generator_UserColumnName="JOB_DATE" msprop:Generator_ColumnVarNameInTable="columnJOB_DATE" msprop:Generator_ColumnPropNameInRow="JOB_DATE" msprop:Generator_ColumnPropNameInTable="JOB_DATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="JOB_TYPE" msprop:Generator_UserColumnName="JOB_TYPE" msprop:Generator_ColumnVarNameInTable="columnJOB_TYPE" msprop:Generator_ColumnPropNameInRow="JOB_TYPE" msprop:Generator_ColumnPropNameInTable="JOB_TYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="STORER_NAME" msprop:Generator_UserColumnName="STORER_NAME" msprop:Generator_ColumnVarNameInTable="columnSTORER_NAME" msprop:Generator_ColumnPropNameInRow="STORER_NAME" msprop:Generator_ColumnPropNameInTable="STORER_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FROM_ADDRESS" msprop:Generator_UserColumnName="FROM_ADDRESS" msprop:Generator_ColumnVarNameInTable="columnFROM_ADDRESS" msprop:Generator_ColumnPropNameInRow="FROM_ADDRESS" msprop:Generator_ColumnPropNameInTable="FROM_ADDRESSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TO_ADDRESS" msprop:Generator_UserColumnName="TO_ADDRESS" msprop:Generator_ColumnVarNameInTable="columnTO_ADDRESS" msprop:Generator_ColumnPropNameInRow="TO_ADDRESS" msprop:Generator_ColumnPropNameInTable="TO_ADDRESSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TRAN_TYPE" msprop:Generator_UserColumnName="TRAN_TYPE" msprop:Generator_ColumnPropNameInRow="TRAN_TYPE" msprop:Generator_ColumnVarNameInTable="columnTRAN_TYPE" msprop:Generator_ColumnPropNameInTable="TRAN_TYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="JOB_YEAR" msprop:Generator_UserColumnName="JOB_YEAR" msprop:Generator_ColumnVarNameInTable="columnJOB_YEAR" msprop:Generator_ColumnPropNameInRow="JOB_YEAR" msprop:Generator_ColumnPropNameInTable="JOB_YEARColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Ticket" msprop:Generator_UserTableName="Ticket" msprop:Generator_RowDeletedName="TicketRowDeleted" msprop:Generator_RowChangedName="TicketRowChanged" msprop:Generator_RowClassName="TicketRow" msprop:Generator_RowChangingName="TicketRowChanging" msprop:Generator_RowEvArgName="TicketRowChangeEvent" msprop:Generator_RowEvHandlerName="TicketRowChangeEventHandler" msprop:Generator_TableClassName="TicketDataTable" msprop:Generator_TableVarName="tableTicket" msprop:Generator_RowDeletingName="TicketRowDeleting" msprop:Generator_TablePropName="Ticket">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TICKET_NO" msprop:Generator_UserColumnName="TICKET_NO" msprop:Generator_ColumnPropNameInRow="TICKET_NO" msprop:Generator_ColumnVarNameInTable="columnTICKET_NO" msprop:Generator_ColumnPropNameInTable="TICKET_NOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TRUCK" msprop:Generator_UserColumnName="TRUCK" msprop:Generator_ColumnVarNameInTable="columnTRUCK" msprop:Generator_ColumnPropNameInRow="TRUCK" msprop:Generator_ColumnPropNameInTable="TRUCKColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FROM_ADDRESS" msprop:Generator_UserColumnName="FROM_ADDRESS" msprop:Generator_ColumnPropNameInRow="FROM_ADDRESS" msprop:Generator_ColumnVarNameInTable="columnFROM_ADDRESS" msprop:Generator_ColumnPropNameInTable="FROM_ADDRESSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TO_ADDRESS" msprop:Generator_UserColumnName="TO_ADDRESS" msprop:Generator_ColumnPropNameInRow="TO_ADDRESS" msprop:Generator_ColumnVarNameInTable="columnTO_ADDRESS" msprop:Generator_ColumnPropNameInTable="TO_ADDRESSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="REF" msprop:Generator_UserColumnName="REF" msprop:Generator_ColumnPropNameInRow="REF" msprop:Generator_ColumnVarNameInTable="columnREF" msprop:Generator_ColumnPropNameInTable="REFColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SECTION" msprop:Generator_UserColumnName="SECTION" msprop:Generator_ColumnPropNameInRow="SECTION" msprop:Generator_ColumnVarNameInTable="columnSECTION" msprop:Generator_ColumnPropNameInTable="SECTIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NET_WEIGHT" msprop:Generator_UserColumnName="NET_WEIGHT" msprop:Generator_ColumnPropNameInRow="NET_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnNET_WEIGHT" msprop:Generator_ColumnPropNameInTable="NET_WEIGHTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GROSS_WEIGHT" msprop:Generator_UserColumnName="GROSS_WEIGHT" msprop:Generator_ColumnPropNameInRow="GROSS_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnGROSS_WEIGHT" msprop:Generator_ColumnPropNameInTable="GROSS_WEIGHTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TRAN_DATE" msprop:Generator_UserColumnName="TRAN_DATE" msprop:Generator_ColumnVarNameInTable="columnTRAN_DATE" msprop:Generator_ColumnPropNameInRow="TRAN_DATE" msprop:Generator_ColumnPropNameInTable="TRAN_DATEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Driver" msprop:Generator_UserTableName="Driver" msprop:Generator_RowDeletedName="DriverRowDeleted" msprop:Generator_RowChangedName="DriverRowChanged" msprop:Generator_RowClassName="DriverRow" msprop:Generator_RowChangingName="DriverRowChanging" msprop:Generator_RowEvArgName="DriverRowChangeEvent" msprop:Generator_RowEvHandlerName="DriverRowChangeEventHandler" msprop:Generator_TableClassName="DriverDataTable" msprop:Generator_TableVarName="tableDriver" msprop:Generator_RowDeletingName="DriverRowDeleting" msprop:Generator_TablePropName="Driver">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STAFF_CODE" msprop:Generator_UserColumnName="STAFF_CODE" msprop:Generator_ColumnVarNameInTable="columnSTAFF_CODE" msprop:Generator_ColumnPropNameInRow="STAFF_CODE" msprop:Generator_ColumnPropNameInTable="STAFF_CODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FIRST_NAME" msprop:Generator_UserColumnName="FIRST_NAME" msprop:Generator_ColumnVarNameInTable="columnFIRST_NAME" msprop:Generator_ColumnPropNameInRow="FIRST_NAME" msprop:Generator_ColumnPropNameInTable="FIRST_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LAST_NAME" msprop:Generator_UserColumnName="LAST_NAME" msprop:Generator_ColumnVarNameInTable="columnLAST_NAME" msprop:Generator_ColumnPropNameInRow="LAST_NAME" msprop:Generator_ColumnPropNameInTable="LAST_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CARRIER" msprop:Generator_UserColumnName="CARRIER" msprop:Generator_ColumnVarNameInTable="columnCARRIER" msprop:Generator_ColumnPropNameInRow="CARRIER" msprop:Generator_ColumnPropNameInTable="CARRIERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CARRIER_NAME" msprop:Generator_UserColumnName="CARRIER_NAME" msprop:Generator_ColumnVarNameInTable="columnCARRIER_NAME" msprop:Generator_ColumnPropNameInRow="CARRIER_NAME" msprop:Generator_ColumnPropNameInTable="CARRIER_NAMEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MaxJob" msprop:Generator_UserTableName="MaxJob" msprop:Generator_RowDeletedName="MaxJobRowDeleted" msprop:Generator_RowChangedName="MaxJobRowChanged" msprop:Generator_RowClassName="MaxJobRow" msprop:Generator_RowChangingName="MaxJobRowChanging" msprop:Generator_RowEvArgName="MaxJobRowChangeEvent" msprop:Generator_RowEvHandlerName="MaxJobRowChangeEventHandler" msprop:Generator_TableClassName="MaxJobDataTable" msprop:Generator_TableVarName="tableMaxJob" msprop:Generator_RowDeletingName="MaxJobRowDeleting" msprop:Generator_TablePropName="MaxJob">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JOBNO" msprop:Generator_UserColumnName="JOBNO" msprop:Generator_ColumnVarNameInTable="columnJOBNO" msprop:Generator_ColumnPropNameInRow="JOBNO" msprop:Generator_ColumnPropNameInTable="JOBNOColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Storer" msprop:Generator_UserTableName="Storer" msprop:Generator_RowDeletedName="StorerRowDeleted" msprop:Generator_TableClassName="StorerDataTable" msprop:Generator_RowChangedName="StorerRowChanged" msprop:Generator_RowClassName="StorerRow" msprop:Generator_RowChangingName="StorerRowChanging" msprop:Generator_RowEvArgName="StorerRowChangeEvent" msprop:Generator_RowEvHandlerName="StorerRowChangeEventHandler" msprop:Generator_TablePropName="Storer" msprop:Generator_TableVarName="tableStorer" msprop:Generator_RowDeletingName="StorerRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STORER_ID" msprop:Generator_UserColumnName="STORER_ID" msprop:Generator_ColumnPropNameInRow="STORER_ID" msprop:Generator_ColumnVarNameInTable="columnSTORER_ID" msprop:Generator_ColumnPropNameInTable="STORER_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="STORER_NAME" msprop:Generator_UserColumnName="STORER_NAME" msprop:Generator_ColumnPropNameInRow="STORER_NAME" msprop:Generator_ColumnVarNameInTable="columnSTORER_NAME" msprop:Generator_ColumnPropNameInTable="STORER_NAMEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
